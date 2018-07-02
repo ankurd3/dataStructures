@@ -1,0 +1,11 @@
+package arrays;
+
+public class Util {
+	public static int[] swapIndexEl(int[] arr, int sourceIndex, int targetIndex){
+		
+		int temp = arr[sourceIndex];
+		arr[sourceIndex] = arr[targetIndex];
+		
+		return arr;
+	}
+}
